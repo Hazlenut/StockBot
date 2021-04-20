@@ -1,3 +1,4 @@
 import robin_stocks as rs
-rs.login()
+login = rs.login()
+
 

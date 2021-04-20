@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "SSH FS - wwung",
+			"uri": "ssh://wwung/"
+		},
+		{
+			"path": "."
+		}
+	]
+}
