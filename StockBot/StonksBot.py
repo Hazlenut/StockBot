@@ -1,8 +1,10 @@
 import os
-from twitchio.ext import commands
-from dotenv import dotenv_values
 
-dotenv_values(".env")
+from twitchio.ext import commands
+from dotenv import load_dotenv
+
+load_dotenv(dotenv_path='.env')
+
 
 bot = commands.Bot(
     irc_token=os.environ['TMI_TOKEN'],
